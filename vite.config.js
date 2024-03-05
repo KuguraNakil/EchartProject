@@ -11,6 +11,7 @@ import Inspect from 'vite-plugin-inspect'
 const pathSrc = path.resolve(__dirname, 'src')
 
 export default defineConfig({
+  base:'/EchartProject/',
   resolve: {
     alias: {
       '@': pathSrc,
